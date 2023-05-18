@@ -1,0 +1,43 @@
+# Keijo A
+# 18.05.2023
+# ylesanded
+
+# ylesanne 1
+
+print("Tere, maailm!")
+
+# ylesanne 2
+
+aasta = 2020
+liblikas = "teelehemosaiikliblikas"
+lause_keskosa = ". aasta liblikas on "
+lause = str(aasta) + lause_keskosa + liblikas
+print(lause)
+
+# ylesanne 3
+
+korgus = float(input("Sisesta pilvede aluse kõrgus (kilomeetrites): "))
+
+if korgus > 6.0:
+    print("Need on ülemised pilved")
+else:
+    print("Need ei ole ülemised pilved")
+    
+# ylesanne 4
+
+inimeste_arv = int(input("Sisesta transporditavate inimeste arv: "))
+bussi_kohad = int(input("Sisesta ühe bussi kohtade arv: "))
+
+if inimeste_arv <= b0ussi_kohad:
+    busside_arv = 1
+    viimase_bussi_inimesed = inimeste_arv
+else:
+    busside_arv = inimeste_arv // bussi_kohad
+    viimase_bussi_inimesed = inimeste_arv % bussi_kohad
+
+# see if_else vajalik olukorraks kus inimeste arv on väiksem bussikohtade arvust
+
+print("Busside arv: ", busside_arv)
+print("Viimases bussis inimesi: ", viimase_bussi_inimesed)
+
+
