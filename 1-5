@@ -28,7 +28,7 @@ else:
 inimeste_arv = int(input("Sisesta transporditavate inimeste arv: "))
 bussi_kohad = int(input("Sisesta ühe bussi kohtade arv: "))
 
-if inimeste_arv <= b0ussi_kohad:
+if inimeste_arv <= bussi_kohad:
     busside_arv = 1
     viimase_bussi_inimesed = inimeste_arv
 else:
